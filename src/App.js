@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello'; // Make sure to import your component if you're going to use it in any file!
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           Let's Learn React
         </a>
       </header>
+      <Hello />
     </div>
   );
 }
